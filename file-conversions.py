@@ -45,6 +45,18 @@ class Converter:
         """
         return pd.read_json(input_path)
 
+    def read_tsv(self, input_path: str) -> pd.DataFrame:
+        """
+        Read data from a TSV file using pandas.
+
+        Args:
+            input_path (str): Path to the input TSV file.
+
+        Returns:
+            pd.DataFrame: Loaded data as a pandas DataFrame.
+        """
+        return pd.read_csv(input_path, sep='t')
+
     def write_csv(self, data: pd.DataFrame, output_path: str) -> None:
         """
         Write data to a CSV file using pandas.
