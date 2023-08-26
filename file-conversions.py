@@ -4,6 +4,7 @@ from typing import Dict, Union
 
 
 class Converter:
+    #a python class
     def __init__(self) -> None:
         """
         Converter class for handling format conversions.
