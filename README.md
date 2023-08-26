@@ -1,6 +1,6 @@
 # File Format Conversion CLI Tool
 
-This is a command-line tool for converting between CSV and JSON file formats using Python and pandas.
+This is a command-line tool for converting between CSV and JSON file formats using Python and Pandas.
 
 ## Installation
 
