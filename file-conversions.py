@@ -10,7 +10,8 @@ class Converter:
         """
         self.read_formats = {
             "csv": self.read_csv,
-            "json": self.read_json
+            "json": self.read_json,
+            "tsv": self.read_tsv,
             # Add more format reading functions here
         }
 
